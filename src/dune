@@ -2,7 +2,6 @@
  (name recharts)
  (public_name melange-recharts)
  (modes melange)
- (libraries reason-react)
+ (libraries reason-react melange.belt)
  (preprocess
   (pps melange.ppx reason-react-ppx)))
-
